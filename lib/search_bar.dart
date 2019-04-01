@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class searchbar extends StatefulWidget {
+// ignore: camel_case_types
+class searchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -37,11 +38,5 @@ class searchbar extends StatefulWidget {
         ],
       ),
     );
-  }
-
-  @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return null;
   }
 }
