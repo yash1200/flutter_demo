@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 01 03:42:04 IST 2019
+#Mon Apr 01 10:41:49 IST 2019
 4.path=flutter_assets/Fonts/Muli-Regular.ttf
 13.baseType=DIRECTORY
 8.set=DEX
@@ -11,7 +11,8 @@
 8.path=classes.dex
 12.path=flutter_assets/Fonts/Muli-ExtraLight.ttf
 3.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
-14.path=lib/arm64-v8a/libflutter.so
+14.path=flutter_assets/isolate_snapshot_data
+15.set=NATIVE_RESOURCE
 4.set=ASSET
 5.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 7.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/transforms/mergeJniLibs/debug/0
@@ -21,13 +22,15 @@
 1.baseType=DIRECTORY
 11.set=ASSET
 0.set=ASSET
+15.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/transforms/mergeJniLibs/debug/0
 14.baseType=DIRECTORY
 6.baseType=DIRECTORY
 7.set=NATIVE_RESOURCE
-14.set=NATIVE_RESOURCE
+14.set=ASSET
 3.set=ASSET
 2.baseType=DIRECTORY
 10.baseType=DIRECTORY
+15.baseType=DIRECTORY
 1.path=flutter_assets/Fonts/Muli-Light.ttf
 7.baseType=DIRECTORY
 3.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
@@ -39,9 +42,10 @@
 9.path=flutter_assets/vm_snapshot_data
 6.set=ASSET
 2.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/transforms/mergeJniLibs/debug/0
-13.path=flutter_assets/isolate_snapshot_data
+13.path=flutter_assets/Images/images.jpeg
 11.baseType=DIRECTORY
 4.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
+15.path=lib/arm64-v8a/libflutter.so
 3.baseType=DIRECTORY
 6.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 10.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
@@ -50,9 +54,9 @@
 2.set=NATIVE_RESOURCE
 8.baseType=DIRECTORY
 12.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
-14.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/transforms/mergeJniLibs/debug/0
+14.base=/home/yash/AndroidStudioProjects/flutter_demo_app/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 9.set=ASSET
-count=15
+count=16
 12.baseType=DIRECTORY
 4.baseType=DIRECTORY
 5.set=ASSET
