@@ -2,6 +2,38 @@ import 'package:flutter/material.dart';
 
 // ignore: camel_case_types
 class services extends StatelessWidget {
+  var title = {
+    "DL Mock Test",
+    "Tax Receipt",
+    "Traffic Status",
+    "Citizen Report",
+    "Nearest RTO"
+  };
+
+  buildList(BuildContext context) {
+    return ListView.builder(
+        itemCount: title.length,
+        scrollDirection: Axis.horizontal,
+        itemBuilder: (context, pos) {
+          return Container(
+            width: 160,
+            child: Column(
+              children: <Widget>[
+                Image.asset(
+                  'Images/images.jpeg',
+                  height: 120,
+                  width: 155,
+                ),
+                Text(
+                  title.elementAt(pos),
+                  style: TextStyle(fontSize: 13),
+                )
+              ],
+            ),
+          );
+        });
+  }
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -21,93 +53,7 @@ class services extends StatelessWidget {
           ),
           Container(
             height: 150,
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              children: <Widget>[
-                Container(
-                  width: 160,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Image.asset(
-                        'Images/images.jpeg',
-                        height: 120,
-                        width: 155,
-                      ),
-                      Center(
-                          child: Text(
-                        "DL Mock Test",
-                        style: TextStyle(fontSize: 13),
-                      ))
-                    ],
-                  ),
-                ),
-                Container(
-                  width: 160,
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset(
-                        'Images/images.jpeg',
-                        height: 120,
-                        width: 155,
-                      ),
-                      Text(
-                        "Tax Receipt",
-                        style: TextStyle(fontSize: 13),
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  width: 160,
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset(
-                        'Images/images.jpeg',
-                        height: 120,
-                        width: 155,
-                      ),
-                      Text(
-                        "Traffic Status",
-                        style: TextStyle(fontSize: 13),
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  width: 160,
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset(
-                        'Images/images.jpeg',
-                        height: 120,
-                        width: 155,
-                      ),
-                      Text(
-                        "Citizen Report",
-                        style: TextStyle(fontSize: 13),
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  width: 160,
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset(
-                        'Images/images.jpeg',
-                        height: 120,
-                        width: 155,
-                      ),
-                      Text(
-                        "Nearest RTO",
-                        style: TextStyle(fontSize: 13),
-                      )
-                    ],
-                  ),
-                )
-              ],
-            ),
+            child: buildList(context),
           )
         ],
       ),
