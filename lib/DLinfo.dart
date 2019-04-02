@@ -3,20 +3,13 @@ import 'package:flutter/material.dart';
 class DLinfo extends StatelessWidget {
 
   var title = {
-  "Temporary Registration",
-  "Permanent Registration",
-  "Renewal Of Registrattions",
-  "Duplicate RC",
-  "No Objectionable Certificate",
-  "HP Indorcement",
-  "HP Termination",
-  "Address Change",
-  "Reassignment Of Vehicle",
-  "Trade Certificate",
-  "Certificate Issues",
-  "Ownership Transfer",
-  "Diplomatic Vehicles",
-  "Registartion Display"
+  "Learner's DL",
+  "Permanent DL",
+  "Renewal Of DL",
+  "Duplicate DL",
+  "Addition Of Class",
+  "International Driving Permit",
+  "License Related Fees"
   };
 
   buildList(BuildContext context) {
