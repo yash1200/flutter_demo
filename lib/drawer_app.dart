@@ -6,7 +6,7 @@ class DrawerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        backgroundColor: Color(0xff212227),
+        backgroundColor: Colors.black,
         title: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -68,25 +68,25 @@ class DrawerApp extends StatelessWidget {
               title: Text("Get RC Information",
                   style: TextStyle(
                       fontFamily: 'Muli', fontWeight: FontWeight.w400)),
-              leading: Icon(Icons.arrow_back),
+              leading: Icon(Icons.arrow_back,color: Colors.blue,),
             ),
             ListTile(
               title: Text("Get DL Information",
                   style: TextStyle(
                       fontFamily: 'Muli', fontWeight: FontWeight.w400)),
-              leading: Icon(Icons.arrow_forward),
+              leading: Icon(Icons.arrow_forward,color: Colors.blue,),
             ),
             ListTile(
               title: Text("Terms Of Use",
                   style: TextStyle(
                       fontFamily: 'Muli', fontWeight: FontWeight.w400)),
-              leading: Icon(Icons.pages),
+              leading: Icon(Icons.pages,color: Colors.blue,),
             ),
             ListTile(
               title: Text("About",
                   style: TextStyle(
                       fontFamily: 'Muli', fontWeight: FontWeight.w400)),
-              leading: Icon(Icons.account_box),
+              leading: Icon(Icons.account_box,color: Colors.blue,),
             )
           ],
         ),

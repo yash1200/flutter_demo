@@ -22,7 +22,10 @@ class searchBar extends StatelessWidget {
             HowToUse(),
             Container(
               height: 100,
-              child: Image.asset('Images/images.jpeg',fit: BoxFit.fill,),
+              child: Image.asset(
+                'Images/images.jpeg',
+                fit: BoxFit.fill,
+              ),
             )
           ]),
     ));

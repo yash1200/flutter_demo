@@ -11,7 +11,7 @@ class HowToUse extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              "How TO Use",
+              "How to use",
               style: TextStyle(
                   fontFamily: 'Muli',
                   fontWeight: FontWeight.w400,

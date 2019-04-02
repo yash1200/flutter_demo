@@ -11,24 +11,26 @@ class shareNow extends StatelessWidget {
           children: <Widget>[
             Image.asset(
               'Images/images.jpeg',
-              fit: BoxFit.fitHeight,
+              fit: BoxFit.fitWidth,
             )
           ],
         ),
         Center(
-          heightFactor: 7,
           child: ButtonTheme(
             height: 25,
             minWidth: 40,
-            child: RaisedButton(
-              elevation: 6,
-              color: Colors.blue,
-              shape: new RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(5.0)),
-              onPressed: () {},
-              child: Text(
-                "Share Now",
-                style: TextStyle(color: Colors.white),
+            child: Padding(
+              padding: const EdgeInsets.only(top: 165),
+              child: RaisedButton(
+                elevation: 6,
+                color: Colors.blue,
+                shape: new RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(5.0)),
+                onPressed: () {},
+                child: Text(
+                  "Share Now",
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ),
           ),
