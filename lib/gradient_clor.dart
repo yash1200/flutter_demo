@@ -5,7 +5,7 @@ class gradientColor extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      height: 40,
+      height: 60,
       decoration: BoxDecoration(
         gradient: LinearGradient(
             colors: [Colors.black, Colors.transparent],

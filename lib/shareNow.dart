@@ -6,21 +6,24 @@ class shareNow extends StatelessWidget {
     // TODO: implement build
     return Stack(
       children: <Widget>[
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Image.asset(
-              'Images/images.jpeg',
-              fit: BoxFit.fitWidth,
-            )
-          ],
+        Padding(
+          padding: const EdgeInsets.only(top:60.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              Image.asset(
+                'Images/images.jpeg',
+                fit: BoxFit.fitWidth,
+              )
+            ],
+          ),
         ),
         Center(
           child: ButtonTheme(
             height: 25,
             minWidth: 40,
             child: Padding(
-              padding: const EdgeInsets.only(top: 165),
+              padding: const EdgeInsets.only(top: 225),
               child: RaisedButton(
                 elevation: 6,
                 color: Colors.blue,
